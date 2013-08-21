@@ -47,3 +47,4 @@ p $sent_emails.select{|x| x =="gpb"}.size
 p $sent_emails.select{|x| x =="us"}.size
 p $sent_emails.select{|x| x =="chp"}.size
 
+# Expected output: 5000 for each.
